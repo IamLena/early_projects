@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <h1>Hello!</h1>
+    
+    <!-- action="#" 
+         <label tabindex="0" for="my-file" class="input-file-trigger">Select a file...</label>
+    -->
+
+    <form>
+        <div class="input-file-container">  
+            <input class="input-file" id="my-file" type="file" onchange="fileHandle()">
+            <label class="input-file-trigger">Select a file...</label>
+        </div>
+        <p class="file-return"></p>
+    </form>
+    
+    <script src="app.js"></script>
+</body>
+</html>
